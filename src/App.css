@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.landing, .event, .create {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #F6F2FF!important
+}
+.event {
+  background-color: #FBFAFF;
+}
+.create {
+  min-height: 150vh;
+}
+.content {
+  margin-left: 5rem;
+}
+.snapchat {
+  background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+.btn {
+  background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+  text-transform: inherit!important;
+}
+.tab {
+  width: 100%;
+  height: 150px;
+  margin-top: 2rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.search {
+  width: 30rem;
+  height: 3rem;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: -1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* margin-top: 1rem; */
+}
+.icons::after {
+  content: '';
+  width: 10rem;
+  height: .3rem;
+  background-color: #000;
+  position: absolute;
+  top: 4rem;
+  left: 30%;
+  right: 30%;
+}
+.event-icon {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+}
+.event-list {
+  width: 80%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.create-card {
+  width: 40%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 30px;
+  margin-bottom: 3rem;
+}
+.form-field {
+  width: 40%;
+  margin: 0 20%;
+}
